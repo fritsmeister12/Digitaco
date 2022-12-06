@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section class="flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16">
+    <section class="flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16" id="hero">
         <div class="xl:w-5/12 flex flex-col justify-between">
 
             <div class="sm:text-center lg:text-left lg:py-12 xl:py-24">
@@ -21,8 +21,8 @@ function Hero() {
                 <span class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase">Welkom bij</span>
             </div>
         </div>
-        <div class="xl:w-5/12 h-48 lg:h-auto bg-gray-100 overflow-hidden shadow-lg rounded-lg">
-            <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Fakurian Design" class="w-full h-full object-cover object-center" />
+        <div class="w-full h-96 lg:w-3/4 xl:w-3/4 md:w-full bg-gray-100 overflow-hidden shadow-lg rounded-lg">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" loading="lazy" alt="Photo by Fakurian Design" class="w-full h-full object-cover object-center" />
         </div>
         </section>
   )

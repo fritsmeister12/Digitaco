@@ -13,8 +13,8 @@ function Testimonials() {
                         </div>
 
                         <div>
-                            <div class="text-orange-50 text-sm md:text-base font-bold text-center sm:text-left">John McCulling</div>
-                            <p class="text-orange-200 text-sm md:text-sm text-center sm:text-left">CEO / Datadrift</p>
+                            <div class="text-orange-50 text-sm md:text-base font-bold text-center sm:text-left">Danny van Os</div>
+                            <p class="text-orange-200 text-sm md:text-sm text-center sm:text-left">Loopreizen.nl</p>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ function Testimonials() {
                         </div>
 
                         <div>
-                            <div class="text-orange-50 text-sm md:text-base font-bold text-center sm:text-left">Kate Berg</div>
-                            <p class="text-orange-200 text-sm md:text-sm text-center sm:text-left">CFO / Dashdash</p>
+                            <div class="text-orange-50 text-sm md:text-base font-bold text-center sm:text-left">Jasper Peijnenburg</div>
+                            <p class="text-orange-200 text-sm md:text-sm text-center sm:text-left">The World of Bricks</p>
                         </div>
                     </div>
                 </div>

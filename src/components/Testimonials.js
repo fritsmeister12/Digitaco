@@ -1,6 +1,6 @@
 function Testimonials() {
   return (
-    <div class="py-6 sm:py-8 lg:py-12">
+    <div class="py-6 sm:py-8 lg:py-12" id="reviews">
         <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
             <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-8 md:mb-12">Wat anderen over ons zeggen</h2>
             <div class="grid md:grid-cols-2 gap-4 md:gap-8">

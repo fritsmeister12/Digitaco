@@ -19,7 +19,7 @@ function Hero() {
             <div class="flex justify-center lg:justify-start items-center gap-4 mt-8 sm:mt-16">
                 <span class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase">Welkom bij</span>
                 <span class="w-12 h-px bg-gray-200"></span>
-                <span class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase">Welkom bij</span>
+                <span class="text-gray-400 text-sm sm:text-base font-semibold tracking-widest uppercase">Digitaco</span>
             </div>
         </div>
         <div class="w-full h-96 lg:w-3/4 xl:w-3/4 md:w-full bg-gray-100 overflow-hidden shadow-lg rounded-lg">

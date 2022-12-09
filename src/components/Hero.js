@@ -11,8 +11,8 @@ function Hero() {
             <h1 class="text-black-800 text-3xl sm:text-5xl md:text-4xl font-bold mb-8 md:mb-12">Wij bieden de beste digitale oplossingen voor <span className="text-orange-500 italic">uw bedrijf</span></h1>
 
             <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
-                <Link to="onswerk" spy={true} smooth={true} offset={50} duration={500} class="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Ons werk</Link>
-                <Link to="contact" spy={true} smooth={true} offset={50} duration={500} class="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-orange-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Contact ons</Link>
+                <Link to="onswerk" spy={true} smooth={true} offset={50} duration={500} className="inline-block bg-orange-500 hover:bg-orange-600 active:bg-orange-700 focus-visible:ring ring-orange-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Ons werk</Link>
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-orange-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Contact ons</Link>
             </div>
             </div>
 

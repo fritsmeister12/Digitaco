@@ -1,13 +1,16 @@
+import {Link} from 'react-scroll'
+
 const Footer = () => {
   return (
     <div class="pt-4 sm:pt-10 lg:pt-12">
         <footer class="max-w-screen-2xl px-4 md:px-8 mx-auto">
             <div class="flex flex-col items-center border-t border-gray-400 pt-6">
                 <nav class="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6 mb-4">
-                    <a href="#" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Home</a>
-                    <a href="#" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">About</a>
-                    <a href="#" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Our Work</a>
-                    <a href="#" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">Contact</a>
+                    <Link to="navbar" spy={true} smooth={true} offset={0} duration={1000} className="text-gray-500 hover:text-orange-500 active:text-orange-600 transition duration-100">Home</Link>
+                    <Link to="cta" spy={true} smooth={true} offset={0} duration={1000} className="text-gray-500 hover:text-orange-500 active:text-orange-600 transition duration-100">Werkwijze</Link>
+                    <Link to="onswerk" spy={true} smooth={true} offset={0} duration={1000} className="text-gray-500 hover:text-orange-500 active:text-orange-600 transition duration-100">Ons werk</Link>
+                    <Link to="reviews" spy={true} smooth={true} offset={0} duration={1000} className="text-gray-500 hover:text-orange-500 active:text-orange-600 transition duration-100">Reviews</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={0} duration={1000} className="text-gray-500 hover:text-orange-500 active:text-orange-600 transition duration-100">Contact</Link>
                 </nav>
 
                 <div class="flex gap-4">

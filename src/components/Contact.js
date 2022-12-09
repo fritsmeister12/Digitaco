@@ -1,7 +1,12 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
+import ConfirmModal from './ConfirmModal';
 
 const Contact = () => {
+
+    const [modalOpen, setModalOpen] = useState(false);
+
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -10,6 +15,7 @@ const Contact = () => {
       emailjs.sendForm('service_uy3nv38', 'template_9yw4xam', form.current, 'D1R1Gj3BQg3c3_eT8')
         .then((result) => {
             console.log(result.text);
+            setModalOpen(true);
         }, (error) => {
             console.log(error.text);
         });
@@ -50,6 +56,7 @@ const Contact = () => {
                 </div>
             </form>
         </div>
+        {modalOpen && <ConfirmModal setOpenModal={setModalOpen} />}
     </section>
   )
 }
